@@ -54,6 +54,7 @@ var List = React.createClass({
       id: id,
       params: {
         documentId: this.props.documentId,
+        sheetNo: this.props.sheetNo,
         range: this.props.range
       }
     };
